@@ -34,7 +34,6 @@ A  shoe-store web application built with React, Express, and MongoDB. Users can 
    PORT=6070
    MONGO_URI=mongodb://127.0.0.1:27017/shoe-paradise
    JWT_SECRET=replace-this-with-a-long-random-secret
-   ADMIN_CODE=choose-a-private-admin-code
    ```
 
    For MongoDB Atlas, use the connection string supplied by your Atlas cluster as `MONGO_URI`. Keep `.env` private; do not commit database credentials or secrets.
