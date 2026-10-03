@@ -1,0 +1,34 @@
+{
+  "name": "shoe-paradise",
+  "version": "1.0.0",
+  "description": "Student-friendly Shoe Paradise React and Express application",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently -k \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "node --watch server.js",
+    "dev:client": "vite --config frontend/vite.config.js frontend",
+    "build": "vite build --config frontend/vite.config.js frontend",
+    "format": "prettier --write frontend",
+    "test": "node --test frontend/src/features/fit-finder/fitFinder.test.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^9.2.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "vite": "^7.1.7"
+  }
+}
