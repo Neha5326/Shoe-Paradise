@@ -1,6 +1,6 @@
 # Shoe Paradise
 
-A student-friendly shoe-store web application built with React, Express, and MongoDB. Users can create an account, browse a shoe catalog, add shoes to their cart, and get personalized product suggestions with the Shoe Fit Finder.
+A  shoe-store web application built with React, Express, and MongoDB. Users can create an account, browse a shoe catalog, add shoes to their cart, and get personalized product suggestions with the Shoe Fit Finder.
 
 ## Features
 
